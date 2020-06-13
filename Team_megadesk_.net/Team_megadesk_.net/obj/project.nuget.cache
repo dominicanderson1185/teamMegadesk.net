@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "7dHwYwCLZ4pb6irTdTsId2eZEISfeWZCUPKE5Na0acQ7BvMLkcITw2707S8I9YIdfSr+QUMDzd3kWT/jTSQjNQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\darkn\\OneDrive\\Documents\\GitHub\\reclone\\teamMegadesk.net\\Team_megadesk_.net\\Team_megadesk_.net\\Team_megadesk_.net.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\darkn\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}
