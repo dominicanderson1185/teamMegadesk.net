@@ -5,21 +5,43 @@
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
+    <h1 class="display-4">Please add in your Quote.</h1>
 </div>
+
 <form method="post">
-    <input type="number" placeholder="width" required />
-    <br />    <br />
-    <input type="number" placeholder="Depth" required />
+
+    <label for="width">Please enter your width</label>
+
+    <input type="number" id="width" placeholder="width" required />
     <br />    <br />
 
-    <input type="number" placeholder="Drawers max 7" min="0"  max="7" required />
+    <label for="Depth">Please  enter your Depth.</label>
+
+    <input type="number" id="Depth" placeholder="Depth" required />
     <br />    <br />
 
-    <input type="text" placeholder="Material" required />
+    <label for="Drawers">Please select a Drawers</label>
+
+    <input type="number" id="Drawers" placeholder="Max 7" min="0" max="7" required />
     <br />    <br />
 
-    <input type="text" placeholder="Timeline" required />
+    <label for="Material">Please select a Material</label>
+    <select name="dropdown" id="Material">
+        <option selected disabled>Material</option>
+        <option value="50">Pine</option>
+        <option value="100">Laminate</option>
+        <option value="125">Veneer</option>
+        <option value="200">Oak</option>
+        <option value="300">Rosewood</option>
+    </select>
+    <br />    <br />
+    <label for="Shipping">Please select a shipping time.</label>
+    <select name="dropdown" id="Shipping">
+        <option value="3">3 days</option>
+        <option value="5">5 days</option>
+        <option value="7">7 days</option>
+        <option value="14" selected>14 days</option>
+    </select>
     <br />    <br />
 
 
